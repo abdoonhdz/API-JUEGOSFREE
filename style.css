@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+#icono-titulo {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.bg-colorPrincipal {
+    background-color: rgb(233, 233, 233);
+}
+
+.fondo {
+    background: rgba(55,55,65,1);
+}
+
+.btn-lila {
+    background: rgba(60,19,56,1);
+    color: white;
+    border: none;
+}
+
+.enlace {
+    font-size: 24px;
+}
+
+.card {
+    transition: all 0.3s ease-in-out;
+    border: none;
+}
+
+.parrafo {
+    font-size: 16px;    
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.03);
+}
+
+#cuerpo {
+    width: 99%;
+    height: 100vh;
+    font-size: 24px;
+}
+
+
+
+.text-bg-dark {
+    color: white;
+}
+
