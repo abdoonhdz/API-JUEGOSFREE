@@ -67,3 +67,7 @@ a:hover {
     height: 1000px;
     width: 1000px;
 }
+
+#cartas i:hover {
+    cursor: pointer;
+}

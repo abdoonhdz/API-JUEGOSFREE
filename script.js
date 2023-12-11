@@ -82,7 +82,7 @@ function mostrarCartas(data) {
 
     data.forEach(game => {
         const cartaHTML = `
-            <div class="col-md-4">
+            <div class="col-md-4" id="cartas">
                 <div class="card my-4">
                     <img src="${game.thumbnail}" class="card-img-top" alt="${game.title}">
                     <div class="card-body">
