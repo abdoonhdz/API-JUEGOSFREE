@@ -71,3 +71,35 @@ a:hover {
 #cartas i:hover {
     cursor: pointer;
 }
+
+.mensaje-container, .mensaje-container-delete {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff; 
+    animation: fadeOut 4s ease-in-out;
+}
+
+.mensaje-container {
+    background-color: #28a745; 
+}
+
+.mensaje-container-delete {
+    background-color: #ff0000; 
+}
+
+@keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+
+    to {
+      opacity: 0;
+    }
+  }

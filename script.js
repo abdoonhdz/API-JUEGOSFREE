@@ -49,7 +49,20 @@ async function agregarAFavoritos(game) {
 
     request.onsuccess = function (event) {
         console.log('Juego agregado a favoritos correctamente');
+        mostrarMensaje("Juego añadido correctamente");
     };
+}
+
+function mostrarMensaje(mensaje) {
+    const mensajeContainer = document.createElement('div');
+    mensajeContainer.classList.add('mensaje-container', 'alert', 'alert-success');
+    mensajeContainer.textContent = mensaje;
+
+    document.body.appendChild(mensajeContainer);
+
+    setTimeout(() => {
+        mensajeContainer.remove();
+    }, 4000);
 }
 
 document.addEventListener('click', function (event) {
