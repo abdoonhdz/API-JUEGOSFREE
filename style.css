@@ -103,3 +103,12 @@ a:hover {
       opacity: 0;
     }
   }
+
+  @media (max-width: 550px) {
+    .nav-bar {
+        display: flex;
+      flex-direction: column !important;
+      align-items: center;
+    }
+  }
+  
